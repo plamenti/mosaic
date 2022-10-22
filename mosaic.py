@@ -40,7 +40,7 @@ def parse_args():
                              help='the mosaic image will be this many times wider and taller than the original')
     args_parser.add_argument('-tmr',
                              '--tile_match_resolution',
-                             metavar='tile_size',
+                             metavar='tile_match_resolution',
                              type=int,
                              default=5,
                              help='tile matching resolution - higher values give better fit but require more processing')
